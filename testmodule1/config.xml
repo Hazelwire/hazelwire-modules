@@ -1,0 +1,40 @@
+<hazelwire-module>
+	<general-info>
+		<name>Test Module</name>
+		<author>Tim Strijdhorst</author>
+		<date>11-05-2011</date>
+		<file>testmodule_0.7-1ubuntu4_all.deb</file>
+		<serviceport editable="false">80</serviceport>
+		<deployscript>/usr/share/hazelwire/testmodule1/deploy.py</deployscript>
+		<package>
+			<name>Hazelwire Test Package</name>
+			<id>1</id>
+		</package>
+		<tags>
+			<tag>Web</tag>
+			<tag>Local Inclusion</tag>
+		</tags>
+	</general-info>
+	<flags>
+		<flag>
+			<points>10</points>
+		</flag>
+		<flag>
+			<points>5</points>
+		</flag>
+	</flags>
+	<options>
+		<option>
+			<name>Welcome message</name>
+			<value type="text">Welcome to the megacorp website</value>
+		</option>
+		<option>
+			<name>Hardcore mode</name>
+			<value type="boolean">false</value>
+		</option>
+		<option>
+			<name>Something that apparently neeads a floating point</name>
+			<value type="float">3.141592</value>
+		</option>
+	</options>
+</hazelwire-module>
