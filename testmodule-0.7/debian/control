@@ -1,0 +1,14 @@
+Source: testmodule
+Section: network
+Priority: extra
+Maintainer: Maarten Rijke <m.rijke@student.utwente.nl>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.8.3
+Homepage: http://ks25111.kimsufi.com:8000/hazelwire-trac/
+
+Package: testmodule
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, php5, python
+Description: Hazelwire Test module
+ This package is a simple PHP Local File inclusion
+ exploit to demonstrate the Hazelwire framework

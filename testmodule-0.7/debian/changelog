@@ -1,0 +1,123 @@
+testmodule (0.7-1ubuntu4) lucid; urgency=low
+
+  * Fixed deploy for good 
+
+ -- hazelwire <hazelwire@dacs-fw.tsl.utwente.nl>  Wed, 20 Jul 2011 17:48:59 +0200
+
+testmodule (0.7-1ubuntu3) lucid; urgency=low
+
+  * Fixed stupid deploy error 
+
+ -- hazelwire <hazelwire@dacs-fw.tsl.utwente.nl>  Wed, 20 Jul 2011 17:19:37 +0200
+
+testmodule (0.7-1ubuntu2) lucid; urgency=low
+
+  * Fixed postinst 
+
+ -- hazelwire <hazelwire@dacs-fw.tsl.utwente.nl>  Tue, 19 Jul 2011 16:55:33 +0200
+
+testmodule (0.7-1ubuntu1) lucid; urgency=low
+
+  * New upstream version, updated deploy script
+  * Updated .install and .dirs to use the new /usr/share/hazelwire/
+  * Added .links file to symlink the exploit dir to /var/www/
+
+ -- hazelwire <hazelwire@dacs-fw.tsl.utwente.nl>  Tue, 19 Jul 2011 16:26:46 +0200
+
+testmodule (0.6-1ubuntu5) lucid; urgency=low
+
+  * Python is a dependency too. 
+
+ -- hazelwire <hazelwire@dacs-fw.tsl.utwente.nl>  Tue, 17 May 2011 16:56:15 +0200
+
+testmodule (0.6-1ubuntu4) lucid; urgency=low
+
+  * Updated the postrm script, my bash skills suck.
+
+ -- hazelwire <hazelwire@dacs-fw.tsl.utwente.nl>  Tue, 17 May 2011 14:51:18 +0200
+
+testmodule (0.6-1ubuntu3) lucid; urgency=low
+
+  * Added postrm script that removes the whole testmodule dir, so that things that got uploaded get deleted as well.
+
+ -- hazelwire <hazelwire@dacs-fw.tsl.utwente.nl>  Tue, 17 May 2011 14:44:42 +0200
+
+testmodule (0.6-1ubuntu2) lucid; urgency=low
+
+  * Updated postint script to chmod photos dir to 777
+
+ -- hazelwire <hazelwire@dacs-fw.tsl.utwente.nl>  Tue, 17 May 2011 14:33:53 +0200
+
+testmodule (0.6-1ubuntu1) lucid; urgency=low
+
+  * New upstream version
+  * Fixed -1ubuntu# naming
+
+ -- hazelwire <hazelwire@dacs-fw.tsl.utwente.nl>  Tue, 17 May 2011 14:28:47 +0200
+
+testmodule (0.5-1ubuntu10) lucid; urgency=low
+
+  * Updated the deploy dir again 
+  * Fixed the postinst script
+
+ -- hazelwire <hazelwire@dacs-fw.tsl.utwente.nl>  Tue, 17 May 2011 14:14:40 +0200
+
+testmodule (0.5-1ubuntu9) lucid; urgency=low
+
+  * New upstream version
+
+ -- hazelwire <hazelwire@dacs-fw.tsl.utwente.nl>  Tue, 17 May 2011 14:00:38 +0200
+
+testmodule (0.4-1ubuntu8) lucid; urgency=low
+
+  * Added deploy script to .install and added general deploy script dir to .dirs
+
+ -- hazelwire <hazelwire@dacs-fw.tsl.utwente.nl>  Tue, 17 May 2011 13:42:23 +0200
+
+testmodule (0.4-1ubuntu7) lucid; urgency=low
+
+  * New upstream version
+
+ -- hazelwire <hazelwire@dacs-fw.tsl.utwente.nl>  Tue, 17 May 2011 13:08:07 +0200
+
+testmodule (0.3-1ubuntu6) lucid; urgency=low
+
+  * Added postinst script that restarts apache after installation
+
+ -- hazelwire <hazelwire@dacs-fw.tsl.utwente.nl>  Tue, 17 May 2011 12:56:20 +0200
+
+testmodule (0.3-1ubuntu5) lucid; urgency=low
+
+  * Added the sample photos
+
+ -- hazelwire <hazelwire@dacs-fw.tsl.utwente.nl>  Tue, 17 May 2011 12:22:44 +0200
+
+testmodule (0.3-1ubuntu4) lucid; urgency=low
+
+  * New upstream version 
+
+ -- hazelwire <hazelwire@dacs-fw.tsl.utwente.nl>  Tue, 17 May 2011 12:15:01 +0200
+
+testmodule (0.2-1ubuntu3) lucid; urgency=low
+
+  * Depend on php5 instead of apache2
+
+ -- Maarten Rijke <m.rijke@student.utwente.nl>  Mon, 16 May 2011 16:31:48 +0200
+
+testmodule (0.2-1ubuntu2) lucid; urgency=low
+
+  * Updated dependency 
+
+ -- Maarten Rijke <m.rijke@student.utwente.nl>  Mon, 16 May 2011 16:21:23 +0200
+
+testmodule (0.2-1ubuntu1) lucid; urgency=low
+
+  * New upstream release (0.2)
+
+ -- Maarten Rijke <m.rijke@student.utwente.nl>  Mon, 16 May 2011 15:58:54 +0200
+
+testmodule (0.1-1) unstable; urgency=low
+
+  * Initial release 
+
+ -- Maarten Rijke <m.rijke@student.utwente.nl>  Mon, 16 May 2011 15:06:38 +0200

@@ -1,0 +1,15 @@
+#!/bin/bash
+
+set -e
+
+if [ "$1" = "configure" ]; then
+
+	if [ -f /etc/init.d/apache2 ]; then
+		if [ -x /usr/sbin/invoke-rc.d ]; then
+			invoke-rc.d apache2 restart || true
+		else
+			/etc/init.d/apache2 restart || true
+		fi
+	fi
+	chmod 777 /usr/share/hazelwire/testmodule1/exploit/photos
+fi

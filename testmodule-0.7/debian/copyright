@@ -1,0 +1,22 @@
+This work was packaged for Debian by:
+
+    Maarten Rijke <m.rijke@student.utwente.nl> on Mon, 16 May 2011 15:06:38 +0200
+
+It was downloaded from http://ks25111.kimsufi.com:8000/hazelwire-trac
+
+Upstream Author(s):
+
+	Maarten Rijke <m.rijke@student.utwente.nl>
+
+Copyright:
+	Derp
+
+License:
+
+The Debian packaging is:
+
+    Copyright (C) 2011 Maarten Rijke <m.rijke@student.utwente.nl>
+
+and is licensed under the GPL version 3, 
+see `/usr/share/common-licenses/GPL-3'.
+
