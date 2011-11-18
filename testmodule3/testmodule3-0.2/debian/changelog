@@ -1,0 +1,24 @@
+testmodule3 (0.2-1ubuntu2) lucid; urgency=low
+
+  * Fixed manage.py correct xml  parsing
+
+ -- hazelwire <hazelwire@dacs-fw.tsl.utwente.nl>  Wed, 19 Oct 2011 13:53:55 +0200
+
+testmodule3 (0.2-1ubuntu1) lucid; urgency=low
+
+  * Postinst configuring
+  * New upstream version which has configurable listen port
+
+ -- hazelwire <hazelwire@dacs-fw.tsl.utwente.nl>  Mon, 17 Oct 2011 12:58:57 +0200
+
+testmodule3 (0.1-1ubuntu1) lucid; urgency=low
+
+  * Fixed postinst chowning /usr/share/hazelwire/testmodule3
+
+ -- hazelwire <hazelwire@dacs-fw.tsl.utwente.nl>  Sun, 16 Oct 2011 11:51:11 +0200
+
+testmodule3 (0.1-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Hazelwire Maintainers <hazelwire@dacs-fw.tsl.utwente.nl>  Thu, 22 Sep 2011 14:04:09 +0200

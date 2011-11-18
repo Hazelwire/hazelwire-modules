@@ -1,0 +1,14 @@
+Source: testmodule3
+Section: net
+Priority: extra
+Maintainer: Hazelwire Maintainers <hazelwire@dacs-fw.tsl.utwente.nl>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.8.4
+Homepage: http://hazelwire.org
+
+Package: testmodule3
+Architecture: all
+Depends: python, python-twisted, ${shlibs:Depends}, ${misc:Depends}
+Description: Hazelwire testmodule 3
+ This testmodule is about services. A Python service is running which needs
+ to be exploited.
