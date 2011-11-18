@@ -1,0 +1,14 @@
+Source: testmodule2
+Section: misc
+Priority: extra
+Maintainer: Maarten Rijke <m.rijke@student.utwente.nl>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.8.3
+
+Package: testmodule2
+Architecture: all
+Depends: python, php5, php5-sqlite, ${shlibs:Depends}, ${misc:Depends}
+Description: Test module for hazelwire framework (SQLite Injection)
+ This package is a test module for use with the Hazelwire
+ Framework. It consists of a simple web application that has a 
+ SQLite vulnerability.
