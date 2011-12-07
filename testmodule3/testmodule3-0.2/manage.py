@@ -2,6 +2,7 @@
 
 import sys
 import xml.dom.minidom
+import os
 
 if sys.argv[1] == 'deploy':
     flag = sys.argv[2]
@@ -10,7 +11,7 @@ if sys.argv[1] == 'deploy':
     f.close()
 
 if sys.argv[1] == "configure":
-    dom = xml.dom.minidom.parse("/home/hazelwire/modules/testmodule3/config.xml")
+    dom = xml.dom.minidom.parse(os.getenv("MODULEDIR")+"testmodule3/config.xml")
     #The service port is configurable in this module, get it from the XML:
     for option in dom.getElementsByTagName("option"):
         if option.getElementsByTagName("name")[0].childNodes[0].data == "Service port":
